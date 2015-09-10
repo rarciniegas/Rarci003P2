@@ -151,18 +151,12 @@
 
 -(IBAction) clickConvert
 {
-    if ( firstOperand == NO ) {
-        [self storeFracPart];
-        [myCalculator performOperation: op];
-        
-        [displayString appendString: @" = "];
-        [displayString appendString: [myCalculator.accumulator
-                                      convertToString]];
-        display.text = displayString;
+    [displayString setString:[NSString stringWithFormat: @"%f", [myCalculator.accumulator  convertToNum]]];
+    //[displayString setString:@"Eezy"];
+    display.text = displayString;
         currentNumber = 0;
         isNumerator = YES;
-        firstOperand = YES; [displayString setString: @""];
-    }
+        firstOperand = YES; //[displayString setString: @""];
     
 }
 
