@@ -14,6 +14,8 @@
 		8EA3EB231B9F8F7200D198B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3EB221B9F8F7200D198B5 /* Images.xcassets */; };
 		8EA3EB261B9F8F7200D198B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA3EB241B9F8F7200D198B5 /* LaunchScreen.xib */; };
 		8EA3EB321B9F8F7200D198B5 /* Rarci003P2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3EB311B9F8F7200D198B5 /* Rarci003P2Tests.m */; };
+		8EA3EB3D1BA0B93C00D198B5 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3EB3C1BA0B93C00D198B5 /* Fraction.m */; };
+		8EA3EB3F1BA0CB9500D198B5 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3EB3E1BA0CB9500D198B5 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		8EA3EB2B1B9F8F7200D198B5 /* Rarci003P2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rarci003P2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA3EB301B9F8F7200D198B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EA3EB311B9F8F7200D198B5 /* Rarci003P2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rarci003P2Tests.m; sourceTree = "<group>"; };
+		8EA3EB3B1BA0B7D000D198B5 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		8EA3EB3C1BA0B93C00D198B5 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		8EA3EB3E1BA0CB9500D198B5 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		8EA3EB401BA0CC7F00D198B5 /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				8EA3EB221B9F8F7200D198B5 /* Images.xcassets */,
 				8EA3EB241B9F8F7200D198B5 /* LaunchScreen.xib */,
 				8EA3EB151B9F8F7200D198B5 /* Supporting Files */,
+				8EA3EB3B1BA0B7D000D198B5 /* Fraction.h */,
+				8EA3EB3C1BA0B93C00D198B5 /* Fraction.m */,
+				8EA3EB3E1BA0CB9500D198B5 /* Calculator.m */,
+				8EA3EB401BA0CC7F00D198B5 /* Calculator.h */,
 			);
 			path = Rarci003P2;
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				8EA3EB1E1B9F8F7200D198B5 /* ViewController.m in Sources */,
 				8EA3EB1B1B9F8F7200D198B5 /* AppDelegate.m in Sources */,
 				8EA3EB181B9F8F7200D198B5 /* main.m in Sources */,
+				8EA3EB3D1BA0B93C00D198B5 /* Fraction.m in Sources */,
+				8EA3EB3F1BA0CB9500D198B5 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
