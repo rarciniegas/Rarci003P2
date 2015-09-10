@@ -1,3 +1,9 @@
+//  PROGRAMMER: Roberto Arciniegas
+//  PANTHERID: 1385020
+//  CLASS:          COP 465501 TR 5:00
+//  INSTRUCTOR:     Steve Luis  ECS 282
+//  ASSIGNMENT:     #2 Calculator
+//  DUE:            Thursday 09/10/15
 //
 //  ViewController.m
 //  Rarci003P2
@@ -141,6 +147,23 @@
         isNumerator = YES;
         firstOperand = YES; [displayString setString: @""];
     }
+}
+
+-(IBAction) clickConvert
+{
+    if ( firstOperand == NO ) {
+        [self storeFracPart];
+        [myCalculator performOperation: op];
+        
+        [displayString appendString: @" = "];
+        [displayString appendString: [myCalculator.accumulator
+                                      convertToString]];
+        display.text = displayString;
+        currentNumber = 0;
+        isNumerator = YES;
+        firstOperand = YES; [displayString setString: @""];
+    }
+    
 }
 
 

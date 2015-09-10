@@ -1,3 +1,9 @@
+//  PROGRAMMER: Roberto Arciniegas
+//  PANTHERID: 1385020
+//  CLASS:          COP 465501 TR 5:00
+//  INSTRUCTOR:     Steve Luis  ECS 282
+//  ASSIGNMENT:     #2 Calculator
+//  DUE:            Thursday 09/10/15
 //
 //  ViewController.h
 //  Rarci003P2
@@ -31,6 +37,7 @@
 
 -(IBAction) clickOver;
 -(IBAction) clickEquals;
+-(IBAction) clickConvert;
 -(IBAction) clickClear;
 
 
