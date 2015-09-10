@@ -390,6 +390,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Rarci003P2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rarci003P2.app/Rarci003P2";
@@ -405,6 +406,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Rarci003P2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rarci003P2.app/Rarci003P2";

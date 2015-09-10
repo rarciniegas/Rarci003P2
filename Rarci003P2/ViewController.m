@@ -152,11 +152,10 @@
 -(IBAction) clickConvert
 {
     [displayString setString:[NSString stringWithFormat: @"%f", [myCalculator.accumulator  convertToNum]]];
-    //[displayString setString:@"Eezy"];
     display.text = displayString;
-        currentNumber = 0;
-        isNumerator = YES;
-        firstOperand = YES; //[displayString setString: @""];
+    currentNumber = 0;
+    isNumerator = YES;
+    firstOperand = YES; [displayString setString: @""];
     
 }
 
